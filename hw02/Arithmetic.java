@@ -7,6 +7,15 @@ public class Arithmetic{
     
 //  add main method 
     public static void main(String[] args){
+        //program will display total cost without sales tax for 3 pairs of socks
+        //program will display total cost without sales tax for 6 drinking glasses 
+        //program will display total cost without sales tax for a box of envelopes
+        //program will display total sales tax on 3 pairs of socks
+        //program will display total sales tax on 6 drinking glasses
+        //program will display total sales tax on a box of enveloped 
+        //program will display total cost of all products before sales tax
+        //program will display total cost of all sales tax on products 
+        //program will display total cos of all purchases including sales tax
         //input variables
         int nSocks=3; //number of pairs of socks 
         double sockCost$=2.58; //cost per pair of socks 
