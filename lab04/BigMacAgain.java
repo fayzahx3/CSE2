@@ -43,7 +43,7 @@ public class BigMacAgain{
                         }else{ //if not
                             System.out.println("Your total is: $"+ (int)(bigMac$*100)/100.00); //tell them their total in the form (xx.xx)
                         } //end of else statement 
-                    }else{ //if their answer is not Y/y/N/n
+                    }else{ //if their answer is not Y/y/N/n.
                         System.out.println("You did not enter a valid answer"); //print out an error message
                     }//end of else statement
             }else{ //if their answer is less than 0
