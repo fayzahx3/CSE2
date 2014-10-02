@@ -50,7 +50,7 @@ public class RandomGames{ //define a class
                 System.out.println("Pick a card has not been implemented yet"); //the program will tell the user that the game has not been implemented yet
                 break; //leave the switch statement
             default: //if the user enters anything else 
-                System.out.println("Not an option"); //th eprogram will print out an error method
+                System.out.println("Not an option"); //th eprogram will print out an error method.
         }//end of third switch statement
     }// end of main method
 } //end of public class 
