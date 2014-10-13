@@ -26,7 +26,7 @@ public class Roulette{ //define a class
         int timesWon=0; //declare the variable timesWon as an int and make it equal to 0
         int timesLost=0; //declare the variable timesLost as an int and make it equal to 0
         int answer=myScanner.nextInt(); //decalre the variable answer as an int and make it equal to the next int that the user enters
-        while (time1<1000){ //perform the following while the variable time1 is less than 1000
+        while (time1<1000){ //perform the following while the variable time1 is less than 1000 
             time2=0; //set the variable time2 to 0
             while(time2<100){ //perform the follwing while the variable time 2 is less than 100
                 correct=0; //set the value of correct equal to 0
