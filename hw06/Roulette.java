@@ -25,7 +25,7 @@ public class Roulette{ //define a class
         switch (answer){ //this will look at the variable answer
             case 37: //if answer is 37
                 answer=00; //change the value of answer to 00
-        } //end of switch statement  
+        } //end of switch statement   
         while (time1<1000){ //perform the following while the variable time1 is less than 1000  
             time2=0; //set the variable time2 to 0
             while(time2<100){ //perform the follwing while the variable time 2 is less than 100
