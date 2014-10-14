@@ -3,18 +3,14 @@
 //Roulette Java Program
 //
 //
-//the program will ask the user top pick a number between 00 and 36
+//the program will randomly select a number between 00 and 36
 //the program will spin the wheel 100 times generating random number, and repeat this process 1000 times 
 //the program will display the amount of times the users number was the same as the random number generated
 //the program will display the amount of times the users number was not the same as the random number generated
 //the program will display the number of times the user made a profit
 //the program will display the total winnings the user made
-import java.util.Scanner;//you must input the Scanner class
 public class Roulette{ //define a class
     public static void main(String[] args){ //add a main method
-        Scanner myScanner;//you must declare the use of scanner in order to accept input 
-        myScanner=new Scanner(System.in); //you have to construct an instance of the scanner class so that it knows you will be using the scanner
-        System.out.print ("Pick a number to bet on between 00 and 36 "); //tell the user to enter a number between 00 and 36 to bet on 
         int correct=0; //declare the variable correct as an int and make it equal to 0
         int wrong=0; //declare the variable wrong as an int and make it equal to 0
         int time1=0; //delcare the variable time1 as an int and make it equal to 0
@@ -25,7 +21,11 @@ public class Roulette{ //define a class
         int totalWon=0; //decalre the variable totalWon as an int and make it equal to 0
         int timesWon=0; //declare the variable timesWon as an int and make it equal to 0
         int timesLost=0; //declare the variable timesLost as an int and make it equal to 0
-        int answer=myScanner.nextInt(); //decalre the variable answer as an int and make it equal to the next int that the user enters
+        int answer= ((int)(Math.random())*38);
+        switch (answer){
+            case 37:
+                answer=00;
+        }
         while (time1<1000){ //perform the following while the variable time1 is less than 1000  
             time2=0; //set the variable time2 to 0
             while(time2<100){ //perform the follwing while the variable time 2 is less than 100
@@ -52,6 +52,7 @@ public class Roulette{ //define a class
             } //end of 2nd while loop
             time1++; //add 1 to the value of time1
         } //end of first while loop
+        System.out.println("Your bet on the number "+answer);
         System.out.println("Your number appeared: "+totalCorrect+" times"); //print out the number of times the users number showed up
         System.out.println("Your number did not show up: "+totalWrong+" times"); //print out the number of times the users number did not show up
         System.out.println("You walked away with a profit for 1000 repititons of 100 spins: "+timesWon+" times"); //print out the number of times the user made a profit
