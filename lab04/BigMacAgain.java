@@ -1,5 +1,5 @@
 //Fayzah Di Natale
-//CSE02
+//CSE02 
 //Big Mac Again Java Program
 //
 //program will use have users enter the amount of big macs that they want
