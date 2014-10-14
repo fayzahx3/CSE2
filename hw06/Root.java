@@ -15,7 +15,7 @@ public class Root{ //define a class
         double b=(number+1); //declare the variable b as a double and make it equal to the variable number plus 1
         double midpoint=0; //declare the variable midpoint as a double and make it equal to zero
         double square=0; //declare the variable square as a double and make it equal to zero
-        while ((b-a)>0.0000001){ //perform the following instructions while (b-a) is greater than 0.0000001   
+        while ((b-a)>0.0000001){ //perform the following instructions while (b-a) is greater than 0.0000001    
             midpoint=(b+a)/2; //make the variable midpoint equal to (b+a)/2
             square=midpoint*midpoint; //make the variable square equal to midpoint squared
             if(square>number){ //if square is greater than the number originally entered by the user 
