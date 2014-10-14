@@ -21,7 +21,7 @@ public class BigMacAgain{
             if (nBigMacs>0){ //if nBigMacs is greater than 0
                 double bigMacPrice; //declare variable bigMacPrice as a double
                 bigMacPrice=2.22; //make bigMacPrice equal to 2.22
-                double bigMac$; //declare the variable bigMac$ as a double 
+                double bigMac$; //declare the variable bigMac$ as a double  
                 bigMac$=nBigMacs*bigMacPrice; //make it equal to nBigMacs times bigMacPrice
                 System.out.println("You ordered "+ nBigMacs +"for a cost of "+nBigMacs+"*"+bigMacPrice+"=$"+((int)(bigMac$*100)/100.00)); //tell the user how many big macs they ordered, the cost of one and their total cost in the form (xx.xx)
                 System.out.print("Do you want fries? Please enter Y or y or N or n "); //ask if the user wants fries
