@@ -1,3 +1,9 @@
+//Fayzah Di Natale
+//CSE02 
+//BlockedAgain java program
+//
+//
+//program will accept input from the user, and after it verifies that the input is acceptable will call various methods, to produce a tower of numbers 
 import java.util.Scanner; //imput a scanner class 
 public class BlockedAgain{ //define a public class
     public static int checkInt(){ //method that is called checkInt and that returns an int
